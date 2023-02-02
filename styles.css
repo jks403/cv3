@@ -1,0 +1,140 @@
+body{
+    font-family:"Montserrat";  /* lesson 76 */
+    background-color:#ff4c68;
+}
+
+
+#features{
+    padding-left:50px;                   /* padds the left side Easy to use*/
+    background-color:#ff4c68;
+    height:650px;/* pushes down into the lower section */
+}
+#testimonials{
+    background-color: #ff4c68;
+}
+
+#title{
+                   /* this floats the whole title and iphone*/
+    background-color:#ff4c68;
+    color:#fff;    /* 76 */
+
+}
+
+.navbar-brand{
+    padding-left:50px;
+}
+
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+
+#press{
+    background-color:#ff4c68;
+}
+#pricing{
+    background-color:#ff4c68;
+}
+#cta{
+    background-color:#ff4c68;
+}
+
+h1{
+   position:absolute;
+   left:300px;
+    font-family:"Montserrat-black";
+    font-weight:3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat-bold";
+    font-size:3rem;
+    line-height:1.5;
+}
+
+/* Navigation bar*/
+.navbar {
+    padding : 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size:2.5rem;
+}
+ 
+.nav-item{
+    position:relative; /* set relative to the viewport */
+    
+    padding: 0 18px;
+}
+
+.nav-link{            /* Class = "Nav-link" on the HTML file  Pricing moved to the left */
+    position:relative; /* always look at the HTML file to see how we want to Style it */
+    left:700px;       /* moving contact, Downloads, pricing to the left 700 px */
+    font-size:1.2rem;
+    font-family:"Montserrat-light"
+}
+
+/* download buttons*/
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+   position: absolute;
+   left:600px;
+   margin:auto;
+    height:600px;
+    width:300px;
+    
+    transform: rotate(25deg);          /* Equal to rotateZ(45deg) */
+       
+      }
+.rotated{
+    width:30%;
+    transform: rotate(25deg); 
+}
+#testimonials{
+      /* places the quotes and testimonials to the left */
+    text-align: center;
+    background-color:#ef8172;
+    color:#fff;
+}
+
+#pricing{
+    padding:100px; /* places the pricing over 35 pixels away from the left margin 13 minutes in */
+    text-align: center;   /* lesson 81 15 minutes.. centers on the Card */
+}
+.testimonials-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+
+}
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom:3%;
+}
+
+.press-logo{  /* makes these images much smaller */
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+.testimonial-carousel{
+    height:500px;
+}
+
+.carousel-item{
+    height:500px;
+    padding: 7% 15%;
+}
+
+.pricing-column{     /*81 15 minutes in */
+    padding:3% 2%;
+}
